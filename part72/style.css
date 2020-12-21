@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');
+body {
+    background: url("image/spacemoon.jpg"),url("image/black.png");
+    background-blend-mode: hard-light;
+    background-size: cover;
+
+}
+.first {
+    border: 1px solid black;
+    margin: 40px 440px 0 440px;
+    height: 540px;
+    padding: 40px 40px 0 40px;
+    text-align: center;
+    background: url("image/spacemoon.jpg"),url("image/black.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    transform: translateX(-320px);
+}
+h2 {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 3px;
+    padding-left: 10px;
+    transform: translateY(20px);
+}
+h5{
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    transform: translateY(5px);
+}
+.lorem {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    transform: translateY(30px);
+}
+li {
+    list-style-type: disc;
+    color: white;
+    size: 20px;
+}
+a {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+a:hover {
+    color: silver;
+    text-decoration: underline silver; 
+}
+.l1 {
+    transform: translateY(100px);
+ padding-right: 250px;
+}
+.l2 {
+    transform: translateY(120px);
+ padding-right: 250px;
+}
+.l3 {
+ transform: translateY(140px);
+ padding-right: 250px;
+}
+.container {
+    background: white;
+    margin: 0 40px 0 575px;
+    transform: translateY(-580px);
+    height: 577px;
+}
+.sign {
+    padding: 40px 0 0 50px;
+    font-size: 27px;
+    font-family: 'Rubik', sans-serif;
+    color: rgb(29, 70, 70);
+}
+.login {
+    padding-left: 150px;
+    transform: translateY(-27px);
+    font-family: 'Rubik', sans-serif;
+    color: rgba(29, 70, 70, 0.253);
+    font-size: 20px;
+}
+h4 {
+    padding: 20px 0 0 55px;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 20px;
+    color: rgb(19, 95, 95);
+}
+input {
+    border: 0;
+    outline: none;
+    border-bottom: 2px solid rgb(27, 34, 34);
+    padding: 10px 100px 10px 5px ;
+    margin: 30px 0 0 50px;
+    font-size: 15px;
+}
+::placeholder {
+    color: rgb(35, 63, 63);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+::placeholder:hover {
+color: rgb(12, 151, 151);
+}
+input:focus {
+    border-bottom: 2px solid rgb(12, 151, 151);
+    transition: 0.4s rlt;
+}
+button[type='submit'] {
+    transform: translateY(50px);
+    margin-left: 290px;
+    padding: 10px 30px 10px 30px;
+    background: rgba(0, 0, 0, 0)
+    ;
+    border-radius: 7px;
+    border: 2px solid rgba(192, 192, 192, 0.918);
+    color: rgba(151, 151, 151, 0.904);
+}
+input[type='text'] {
+    background: url('image/user.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    transition: 0.4s;
+}
+input[type='email'] {
+    background: url('image/email.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    transition: 0.4s;
+}
+input[type='password'] {
+    background: url('image/lock.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    transition: 0.4s;
+}
+.or {
+    margin-left: 350px;
+    transform: translateY(-350px);
+}
+.o {
+    transform: translateY(-300px);
+    margin-left: 350px;
+}
+.y {
+    margin-left: 385px;
+    transform: translateY(-325px);
+    font-size: 25px;
+    color: rgba(12, 73, 73, 0.685);
+}
+.also {
+    margin-left: 420px;
+    transform: translateY(-657px);
+}
+.button {
+    margin-left: 450px;
+    transform: translateY(-574px);
+}
+button[type='button'] {
+    padding: 18px 150px 18px 11px;
+    background-color: rgb(83, 102, 158);
+    color: white;
+    border: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 7px;
+    background-image: url("image/face.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
